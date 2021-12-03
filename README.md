@@ -12,4 +12,3 @@ ttf-droid
 ttf-inconsolata
 ttf-inconsolata-g (?)
 ```
-
