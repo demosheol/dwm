@@ -14,4 +14,4 @@ ttf-inconsolata-g (?)
 ```
 
 ### Wallpaper
-#151515
+`#151515`
