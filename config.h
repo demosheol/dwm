@@ -7,11 +7,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=12" };
 static const char dmenufont[]       = "monospace:size=11";
-static const char col_gray1[]       = "#151515"; /* #1b1b1b */
-static const char col_gray2[]       = "#505050"; /* #fb9fb1 */
-static const char col_gray3[]       = "#d0d0d0"; /* #d0d0d0 or #fb9fb1 */
-static const char col_gray4[]       = "#f5f5f5"; /* #f5f5f5 or #1b1b1b */
-static const char col_cyan[]        = "#fb9fb1";  
+static const char col_gray1[]       = "#151515"; /* Background color */
+static const char col_gray2[]       = "#505050"; /* Inactive window border color */
+static const char col_gray3[]       = "#d0d0d0"; /* Font color */
+static const char col_gray4[]       = "#f5f5f5"; /* Current tag and current window font color */
+static const char col_cyan[]        = "#fb9fb1"; /* Top bar second color and active window border color */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
@@ -19,7 +19,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5" };
+static const char *tags[] = { "1", "2", "3", "4", "5" }; 
 
 static const Rule rules[] = {
 	/* xprop(1):
