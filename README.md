@@ -4,14 +4,16 @@
 
 - [Full Gaps](https://dwm.suckless.org/patches/fullgaps/) adds gaps between client windows.
 
-## Installation for dummies
+## Installation for newbs
 
 ```
 git clone https://github.com/demosheol/dwm
 cd dwm
 sudo make clean install
 ```
+
 ## Fonts
+
 ```
 ttf-dejavu
 ttf-liberation
