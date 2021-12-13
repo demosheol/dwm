@@ -1,17 +1,20 @@
-# My DWM fork from Suckless
+# Sheol's build of DWM
 
-### Preferably install in the root directory.
-`https://github.com/demosheol/dwm.git`
+## Patches and features
 
-### Fonts
+- [Full Gaps](https://dwm.suckless.org/patches/fullgaps/), This patch adds gaps between client windows.
+
+## Installation for dummies
+
 ```
-ttf-hack (URxvt)
+git clone https://github.com/demosheol/dwm
+cd dwm
+sudo make clean install
+```
+## Fonts
+```
 ttf-dejavu
 ttf-liberation
 ttf-droid
 ttf-inconsolata
-ttf-inconsolata-g (?)
 ```
-
-### Wallpaper
-`#151515`
