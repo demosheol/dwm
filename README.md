@@ -2,7 +2,7 @@
 
 ## Patches and features
 
-- [Full Gaps](https://dwm.suckless.org/patches/fullgaps/), This patch adds gaps between client windows.
+- [Full Gaps](https://dwm.suckless.org/patches/fullgaps/) adds gaps between client windows.
 
 ## Installation for dummies
 
