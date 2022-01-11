@@ -19,6 +19,5 @@ sudo make clean install
 ```
 ttf-dejavu
 ttf-liberation
-ttf-inconsolata
 ttf-iosevka
 ```
